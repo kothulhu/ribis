@@ -1,0 +1,90 @@
+
+/* css taken from https://github.com/pastly/smol/blob/master/static/css/style.css 
+ * and https://code.9front.org/hg/werc/file/644b64e3f6a5/pub/style/style.css */
+
+
+
+html {
+    overflow-y: scroll
+}
+:root {
+    --bgcolor: rgb(41, 41, 41);
+    --fontcolor: white;
+    --linkcolor: #5bf;
+    --visitedcolor: #ae5ee0;
+    --precolor: #fff;
+    --prebgcolor: #383838;
+}
+body {
+    margin:40px auto;
+    padding:0 10px;
+    font:14.8px/1.5 monospace;
+    color:var(--fontcolor);
+    background: var(--bgcolor);
+	display: flex;
+	flex-wrap: wrap;
+}
+time {
+	font:14.8px/1.5 monospace;
+	font-weight: bold;
+}
+li time {
+	font: 14.8px/1.5 monospace;
+}
+a:link {
+    color: var(--linkcolor)
+}
+a:visited {
+    color: var(--visitedcolor)
+}
+a:active {
+    color: var(--visitedcolor)
+}
+h1,h2,h3 {
+    line-height:1.2
+}
+p > code {
+    color: var(--precolor);
+    background: var(--prebgcolor);
+    padding:2px;
+}
+pre {
+    color: var(--precolor);
+    background: var(--prebgcolor);
+    padding:24px;
+    overflow-x: auto
+}
+article {
+    max-width: 1000px;
+	flex-basis: 60%;
+	padding-left: 1em;
+	font-family: sans;
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+figcaption {
+    color: #888;
+    font: 12px/1.5 monospace;
+    text-align: center;
+}
+figure {
+    margin: auto
+}
+
+header { flex-basis: 100%; flex-shrink: 0; }
+footer { flex-basis: 100%; flex-shrink: 0; }
+header nav { display: flex; justify-content: space-between; }
+nav a, header a { text-decoration: none ; color: inherit; }
+header h1 span { margin-left: 2em; font-size: 50%; font-style: italic; }
+body > nav { flex-basis: content; padding-right: 1vw; min-width: 16em; }
+nav li { display: flex; flex-direction: column; list-style-type: none; list-style-position: outside; padding-left: 0;  }
+nav li ul { padding-left: 0.6em }
+footer { display: flex; justify-content: space-between; }
+
+#rside {
+	float: right;
+}
