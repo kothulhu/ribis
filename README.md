@@ -81,7 +81,7 @@ Now you can navigate to `http://ribis.loc` in your web browser and the ribis sit
 
 ## Pictures
 
-- [home page](sites/ribis.loc/pics/homepage.png "Home page")
-- [blog page](sites/ribis.loc/pics/blogpage.png "Blog page")
+![home page](sites/ribis.loc/pics/homepage.png "Home page")
+![blog page](sites/ribis.loc/pics/blogpage.png "Blog page")
 
 
