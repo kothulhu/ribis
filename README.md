@@ -1,6 +1,6 @@
 # README
 
-ribis is a static site generator inspired by [werc](http://werc.cat-v.org). It has support for blogging. The website content is typed in markdown. 
+ribis is a CMS inspired by [werc](http://werc.cat-v.org). It has support for blogging. The website content is typed in markdown. 
 <br>
 
 ## Requirements
